@@ -9,7 +9,7 @@ function Signup() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:8000/signup', form);
+      await axios.post('https://playground-ai-6aba.onrender.com/signup', form);
       alert('Signup successful!');
       navigate('/home');
     } catch (err) {

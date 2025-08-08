@@ -24,7 +24,7 @@ const AudioUpload = () => {
 
     setLoading(true);
     try {
-      const response = await axios.post('http://localhost:8000/audio/transcribe', formData, {
+      const response = await axios.post('https://playground-ai-6aba.onrender.com/audio/transcribe', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },

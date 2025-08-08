@@ -20,7 +20,7 @@ const Summarizer = () => {
     formData.append("file", file);
     setLoading(true);
     try {
-      const res = await axios.post("http://localhost:8000/summarizer/summarize/file", formData);
+      const res = await axios.post("https://playground-ai-6aba.onrender.com/summarizer/summarize/file", formData);
       setSummary(res.data.summary);
     } catch (err) {
       setSummary("❌ Failed to summarize file.");
@@ -34,7 +34,7 @@ const Summarizer = () => {
     formData.append("url", url);
     setLoading(true);
     try {
-      const res = await axios.post("http://localhost:8000/summarizer/summarize/url", formData);
+      const res = await axios.post("https://playground-ai-6aba.onrender.com/summarizer/summarize/url", formData);
       setSummary(res.data.summary);
     } catch (err) {
       setSummary("❌ Failed to summarize URL.");

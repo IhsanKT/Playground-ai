@@ -24,7 +24,7 @@ const ImageUpload = () => {
 
     setLoading(true);
     try {
-      const res = await axios.post('http://localhost:8000/image/caption', formData);
+      const res = await axios.post('https://playground-ai-6aba.onrender.com/image/caption', formData);
       setCaption(res.data.caption);
     } catch (err) {
       setError('Failed to process image.');
