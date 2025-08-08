@@ -28,7 +28,7 @@ app = FastAPI()
 # CORS setup (React runs at localhost:5173)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173","https://playground-ai-peach.vercel.app"],
+    allow_origins=["http://localhost:5173","https://playground-ai-ihsans-projects-0fdf0908.vercel.app/"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
