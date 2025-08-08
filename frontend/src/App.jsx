@@ -2,10 +2,10 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import Signup from './components/signup';
 import Login from './components/login';
 import ProtectedRoute from './components/protect';
-import Home from './components/home';
+import Home from './components/Home';
 import AudioUpload from './components/Audioupload';
 import ImageUpload from './components/Imageupload';
-import Summarizer from "./components/Summarizer";
+import Summarizer from "./components/summarizer";
 
 
 
