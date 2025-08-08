@@ -8,8 +8,6 @@ passlib[bcrypt]
 python-jose[cryptography]
 email-validator
 python-multipart
-openai-whisper
-Pillow
 python-docx
 pdfplumber
 requests
